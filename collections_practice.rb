@@ -57,7 +57,7 @@ end
 
 def add_s(arr)
   arr.each_with_index.collect {|e, i| i != 1 ? e + "s" : e} 
-    if 
+    if
       e = e + "s"
     else
       e
