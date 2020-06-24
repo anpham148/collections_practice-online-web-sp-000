@@ -45,5 +45,4 @@ def kesha_maker(arr)
     x[2] = '$'
   end
   arr
-
 end
