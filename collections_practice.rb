@@ -44,5 +44,6 @@ def kesha_maker(arr)
   arr.each do |x|
     x.gsub(x[2], "$")
   end
+  arr
 
 end
