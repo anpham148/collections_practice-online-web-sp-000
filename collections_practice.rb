@@ -56,6 +56,11 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  var1 = arr.delete_at(1)
-  arr.map{|x| x + "s"}.insert(1, var1)
+  arr.each_with_index.collect do |i, e|
+    if i != 2
+      e += "s"
+    end
+  end
+  # var1 = arr.delete_at(1)
+  # arr.map{|x| x + "s"}.insert(1, var1)
 end
