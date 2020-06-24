@@ -58,7 +58,7 @@ end
 def add_s(arr)
   arr.each_with_index.collect do |i, e|
     if i != 2
-      e += "s"
+      e = e + "s"
     end
   end
   # var1 = arr.delete_at(1)
