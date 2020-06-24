@@ -56,6 +56,6 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  var1 = arr.delete("${arr[1]}")
-  arr.map{|x| x + "s"}
+  var1 = arr.delete_at(2)
+  arr1 = arr.map{|x| x + "s"}.insert(2, var1)
 end
