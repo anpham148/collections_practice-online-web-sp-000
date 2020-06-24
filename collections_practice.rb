@@ -56,5 +56,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-
+  var1 = arr.delete("${arr[1]}") 
 end
